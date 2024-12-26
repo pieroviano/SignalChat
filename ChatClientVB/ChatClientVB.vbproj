@@ -4,9 +4,8 @@
 		<AssemblyName>SignalChat</AssemblyName>
 		<TargetFramework>net462</TargetFramework>
 		<Product>SignalChat</Product>
-		<Copyright>Copyright ©  2017 Meshack Musundi</Copyright>
-		<AssemblyVersion>1.1.0.0</AssemblyVersion>
-		<FileVersion>1.1.0.0</FileVersion>
+		<Copyright>Copyright (c) 2017 Meshack Musundi</Copyright>
+		<Version>1.2.0.0</Version>
 		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
 		<DocumentationFile>SignalChat.xml</DocumentationFile>
 		<NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>

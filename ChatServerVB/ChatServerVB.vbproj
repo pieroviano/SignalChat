@@ -2,13 +2,11 @@
 	<PropertyGroup>
 		<AssemblyTitle>SignalChatServer</AssemblyTitle>
 		<Product>SignalChatServer</Product>
-		<Copyright>Copyright ©  2017 Meshack Musundi</Copyright>
-		<AssemblyVersion>1.1.0.0</AssemblyVersion>
-		<FileVersion>1.1.0.0</FileVersion>
+		<Copyright>Copyright (c) 2017 Meshack Musundi</Copyright>
+		<Version>1.2.0.0</Version>
 		<OutputType>Exe</OutputType>
 		<StartupObject>ChatServerVB.ServerModule</StartupObject>
 		<AssemblyName>SignalChatServer</AssemblyName>
-		<MyType>Console</MyType>
 		<TargetFramework>net462</TargetFramework>
 		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
 		<DocumentationFile>SignalChatServer.xml</DocumentationFile>
@@ -19,7 +17,7 @@
 		<OptionStrict>Off</OptionStrict>
 		<OptionInfer>On</OptionInfer>
 	</PropertyGroup>
-	<ItemGroup>
+	<ItemGroup Condition="'$(TargetFramework)'=='net462'">
 		<PackageReference Include="Microsoft.AspNet.Cors" Version="5.2.4" />
 		<PackageReference Include="Microsoft.AspNet.SignalR.Core" Version="2.2.3" />
 		<PackageReference Include="Microsoft.AspNet.SignalR.SelfHost" Version="2.2.3" />

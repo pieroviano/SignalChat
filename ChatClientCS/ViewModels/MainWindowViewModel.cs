@@ -10,7 +10,6 @@ using ChatClientCS.Enums;
 using ChatClientCS.Models;
 using ChatClientCS.Commands;
 using System.Windows.Input;
-using System.Windows.Media;
 using System.Diagnostics;
 using System.Reactive.Linq;
 
